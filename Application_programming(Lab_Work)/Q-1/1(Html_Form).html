@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+  </head>
+  <body>
+<center><h1>REGISTRATION FORM</h1></center>
+<h5><time></time></h5>
+<feildset>
+<form  action="meta.html" method="post" autocomplete="on">
+  <!--hidden input type contains hidden information that will also be processed in action browser-->
+  <input type="hidden" name="recipient" value="">
+  <input type="hidden" name="subject" value="">
+  <input type="hidden" name="redirect" value="">
+  <!--input type text inserts a text feild to be input by user-->
+
+  <p><feildset><label>First Name:
+    <input type="text" placeholder="First Name" id="firstname"name="name" size="25" maxlength="30">
+</label>(First name)</feildset></p>
+
+<p><label>Last Name:
+  <input type="text" placeholder="Last Name" id="lastname"name="name" size="25" maxlength="30">
+</label>(Last name)</p>
+<p>
+<label>Date:
+<input type="date"/>
+(yyyy-mm-dd)
+</label>
+</p>
+<p><label>E-mail address:
+  <input type="email" name="details" placeholder="name@domain.com" required></label>
+</p>
+<p><label>Phone Number
+    <input type="tel" name="details" placeholder="##########" pattern="\d{10}" required></label>
+</p>
+<p>
+<label>Datetime Local:
+<input type="datetime-local"/>
+(yyyy-mm-ddThh:mm, such as 2012-01-27T03:15)
+</label>
+</p>
+<p>
+  <label for="txtList">Qualifications:
+<input type="text" id="txtList" placeholder="Qualifications" list="Qualifications">
+<datalist id="Qualifications">
+  <option value="Matric">
+    <option value="High School">
+      <option value="UG">
+        <option value="PG">
+</datalist>
+</label>
+</p>
+<p>
+<strong>Team you liked</strong><br>
+<label>Programming team
+<input type="checkbox" name="teamselection" value="programming">
+</label>
+<label>Creative team
+<input type="checkbox" name="teamselection" value="creative">
+</label>
+<label>Mulltimedia team
+<input type="checkbox" name="teamselection" value="multimedia">
+</label>
+<label>Testing team
+<input type="checkbox" name="teamselection" value="testing">
+</label>
+</p>
+<p>
+<strong>Confirm</strong>
+<label>Yes
+  <input type="radio" name="confirmation" value="yes" checked>
+</label>
+<label>No
+<input type="radio" name="confirmation" value="no">
+<!--name class must be same in a given paragraph-->
+</label>
+</p>
+<p>
+<label>Rate our site
+  <select name="rating">
+    <option selected>Amazing</option>
+    <option>10</option>
+    <option>9</option>
+    <option>8</option>
+    <option>7</option>
+    <option>6</option>
+    <option>5</option>
+    <option>4</option>
+    <option>3</option>
+    <option>2</option>
+    <option>1</option>
+    <option>Awful</option>
+    </select>
+</label>
+</p>
+<p>
+<label>
+Comments<br>
+  <textarea name="comments" rows="4" cols="40">Enter your comment</textarea>
+</label>
+</p>
+<p>
+  <input type="submit"  value="Submit">
+  <input type="reset"  value="Clear">
+</p>
+</form>
+</feildset>
+  </body>
+</html>

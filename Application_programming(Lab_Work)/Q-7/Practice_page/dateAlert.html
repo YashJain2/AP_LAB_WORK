@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      var name;
+      var now = new Date();
+      var hour = now.getHours();
+      name=window.prompt("Please enter your name","Name");
+      if(hour<12)
+        document.write("<h1>Good Morning, ");
+        if(hour>=12)
+        {
+          hour=hour-12;
+          if(hour<6)
+            document.write("<h1>Good Afternoon, ");
+          if(hour>=6)
+          document.write("<h1>Good Evening, ");
+        }
+      document.write( name + "Welcome to javascript</h1>");
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

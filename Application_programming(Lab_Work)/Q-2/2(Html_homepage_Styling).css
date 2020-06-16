@@ -1,0 +1,64 @@
+div
+{
+  font-family: serif;
+  margin : 10% 25%;
+  border: 20px solid lightgrey;
+  border-radius: 15px;
+  padding:2% 2%;
+}
+p
+{
+  padding: 1% 1%;
+  text-align: center
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+  font-variant: small-caps;
+}
+h2
+{
+  text-align: center;
+  text-shadow: 2px 2px 2px dimgrey;
+}
+time
+{
+  color: powderblue;
+  font-family: cursive;
+  padding-bottom: 1%;
+}
+article
+{
+  padding-left: 2%;
+  padding-bottom: 3%;
+  border-left: 10px solid lightgrey;
+}
+button
+{
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid transparent;
+  color: powderblue;
+  line-height: 2;
+  font-weight: 400;
+  border-radius: 1px;
+  border-color: powderblue;
+  background-color: white;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.4rem powderblue;
+}
+button:focus
+{
+  color:white;
+  border-color: powderblue;
+  background-color: powderblue;
+  box-shadow: 0 0 0.9rem powderblue;
+  outline: 0;
+}
+button:hover
+{
+  color:white;
+  background-color: powderblue;
+  border-color: lightblue;
+}
